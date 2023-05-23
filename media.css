@@ -1,0 +1,96 @@
+/*  UTILITY CLASS  */
+.hr-row{
+  margin: auto;
+  min-height: 3px;
+  background-color: #a85df3;
+  border: 0px;
+  border-radius: 5px;
+  margin: 0vw 5vw;
+}
+.hr-w{
+  width: 80vw;
+  margin: 0px;
+  height: 3px;
+}
+.gray-text{
+  color: gray;
+  margin: 0px;
+}
+.c-gr{
+  color: green;
+}
+.m-auto{
+  margin: auto;
+}
+.m-1vh{
+  margin: 1vh 0vh;
+}
+/*  HEADER  */
+@media (max-width: 750px) {
+  header {
+   min-height: 60px;
+  }
+  .left {
+  font-size: 1.1rem;
+}
+.right {
+  font-size: 0.8rem;
+}
+}
+
+/*  FIRST SECTION  */
+@media (max-width: 750px) {
+  .firstsection {
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  .leftsection {
+    font-size: 1.3rem;
+    margin-bottom: 6vh;
+  }
+  .rightsection{
+    margin-top: 2vh;
+  }
+  .rightsection img {
+  width: 270px;
+  height: 220px;
+  }
+}
+
+/*  SECOND SECTION  */
+@media (max-width: 750px) {
+.secondsection h1 {
+  font-size: 1.5rem;
+}
+.secound-boxes {
+  display: flex;
+  overflow: scroll;
+}
+.secound-boxes .box {
+  width: 150px;
+  margin: 0vw 2vw;
+}
+.secound-boxes .box h2 {
+ font-size: 0.8rem;
+ margin: 2px 0px;
+}
+.secound-boxes .box .c-gr {
+ font-size: 0.7rem;
+ margin: 2px 0px;
+}
+.secound-boxes .box p {
+ font-size: 0.7rem;
+ margin: 0px;
+}
+.secound-boxes .box .vertical {
+  width: 100px;
+  height: 50px;
+  border-left: 2px solid #a85df3;
+  margin: ;
+}
+/* ------  ICONS  -----  */
+.secound-icon-boxes .icon-box img{
+  width: 20px;
+  height: 20px;
+}
+}
